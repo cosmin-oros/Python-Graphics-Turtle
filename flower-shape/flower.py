@@ -4,7 +4,7 @@ speed(0)  # remove in order to make it slower
 color("red")
 
 
-def fleur():
+def drawFlower():
     for i in range(300):
         circle(190 - i, 90)
         left(90)
@@ -12,5 +12,5 @@ def fleur():
         left(18)
 
 
-fleur()
+drawFlower()
 mainloop()
